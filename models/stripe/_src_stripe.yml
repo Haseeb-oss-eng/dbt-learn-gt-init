@@ -4,6 +4,7 @@ sources:
     schema: stripe
     tables:
       - name: payment
+        description: The payment table contains all the payments of each order.
         config:
           freshness:
             warn_after:
